@@ -1,0 +1,87 @@
+/* * {
+    border: 2px, red, solid;            Utilizo esto para estructurar cada elemento de forma más vivual
+} */
+
+body {
+    background-color: black;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.photoBox {
+    margin: 50px auto;
+    background-color: white;
+    width: 500px;
+}
+
+.photoHeader {
+    display: flex;
+}
+
+.photoHeader>* {
+    padding: 0px;
+    margin-left: 10px;
+    align-content: center;
+}
+
+.logo {
+    font-size: 50px;
+}
+
+.tittleAuthor {
+    align-content: center;
+}
+
+.tittleAuthor>* {
+    margin: 0;
+    padding: 0px;
+    text-align: left;
+}
+
+.photoAuthor {
+    color: gray;
+}
+
+.photoTitle {
+    font-weight: bold;
+    text-align: left;
+}
+
+.photoDate {
+    margin-right: 10px;
+    margin-left: auto;
+    color: grey;
+    text-align: right;
+    padding: 0px;
+}
+
+.photo {
+    width: 100%;
+}
+
+.buttons {
+    display: flex
+}
+
+.buttons>* {
+    margin: 0px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.saveButton {
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+.footer {
+    color: grey;
+    margin-top: -5px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.description {
+    text-align: justify;
+    padding: 10px;
+}

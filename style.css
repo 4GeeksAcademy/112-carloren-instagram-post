@@ -47,10 +47,10 @@ body {
     text-align: left;
 }
 
-.photoDate {
+.optionsButton {
     margin-right: 10px;
     margin-left: auto;
-    color: grey;
+    font-size: 20px;
     text-align: right;
     padding: 0px;
 }
